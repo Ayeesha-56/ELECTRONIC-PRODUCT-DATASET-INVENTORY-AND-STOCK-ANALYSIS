@@ -1,5 +1,5 @@
 # ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS
-![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](
+![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](A.png)
 
 I recently worked on an inventory dataset and uncovered some interesting insights that go beyond just numbers.
 ## Dataset Overview:
@@ -15,21 +15,28 @@ Products are categorized across different brands and categories
 
 ## Data Preparation:
 Before diving into the analysis, I ensured the dataset was clean, structured, and ready for insights:
-• Converted the dataset into a structured table format using Ctrl + T for better data handling
-• Reviewed and standardized column names for clarity and consistency
-• Corrected data types to ensure accurate analysis (e.g., numeric, text)
-• Created a helper column to segment products into price ranges (Low-budget, Mid-budget, High-budget)
-• Derived a new metric "Inventory Value (Stock × Price)" to measure the total value of products in stock
+- Converted the dataset into a structured table format using Ctrl + T for better data handling
+- Reviewed and standardized column names for clarity and consistency
+- Corrected data types to ensure accurate analysis (e.g., numeric, text)
+- Created a helper column to segment products into price ranges (Low-budget, Mid-budget, High-budget)
+- Derived a new metric "Inventory Value (Stock × Price)" to measure the total value of products in stock
+  
+![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](C.png)
+
+![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](E.png)
 ### Key Questions:
-• Which product categories hold the highest stock?
-• How do price ranges influence quantity in stock?
-• Which brands contribute the most to total inventory value?
-• Are there products marked "out of stock" but still holding inventory value?
+- Which product categories hold the highest stock?
+- How do price ranges influence quantity in stock?
+- Which brands contribute the most to total inventory value?
+- Are there products marked "out of stock" but still holding inventory value?
+  
+![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](D.png)
 ## Key Insights:
 • Clothing & Apparel has the highest inventory value (87.48M) . This explained that the inventory capital is tied into the lifestyle and personal product category and not necessarily the electronics categories.
 * Categories such as Toys & Games , Beauty & Personal Care… exist in warehouse but not where needed hence the reason why they have high inventory value and this could be as a reason of poor inventory distribution.
 * High-priced product dominated the stock quantity while the low-budget items are understocked. This could be related to business investing in premium product than the affordable ones.
- 
+
+![ELECTRONIC-PRODUCT-DATASET-INVENTORY-AND-STOCK-ANALYSIS](B.png)
 ## What This Means:
 Inventory is not just about availability, it's about balance. Overstocking ties down capital, while inconsistencies in stock status can mislead decision-making.
 ## Recommendations:
